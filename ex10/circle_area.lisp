@@ -1,0 +1,5 @@
+(defun circle-area ()
+  (format t "Enter radius: ")
+  (let* ((radius (read))
+         (area (* pi (* radius radius))))
+    (format t "Area of the circle is: ~f" area)))
